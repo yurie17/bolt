@@ -1,6 +1,4 @@
-.body{
-  font-family: Raleway;
-}
+
 .img{
   vertical-align: bottom;
 }
@@ -40,7 +38,9 @@
   position: fixed;
   right: 7.7%;
 }
-
+.main{
+  padding-top: 78px;
+}
 .bolt_them_wrap{
   padding-top: 250px;
   padding-bottom: 250px;
@@ -63,7 +63,7 @@
   background-color: #74cfae;
   padding-top: 50px;
 }
-.grid{
+/* .grid{
   margin: 0px -15px;
   font-size: 0px;
 }
@@ -72,7 +72,7 @@
 }
 .vert{
   vertical-align: top;
-}
+} */
 .phone{
   width: 30%;
   display: inline-block;
@@ -129,7 +129,7 @@
 .picture:first-child{
   margin-left: 0px;
 }
-.picture:nth-child(4){
+.picture:nth-child(4n){
   margin-left: 0px;
 }
 .picture:nth-child(n+4){
@@ -154,6 +154,11 @@
   text-decoration: none;
   display: inline-block;
   margin-left: 90px;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+.Email_btn:hover{
+  opacity: 1;
 }
 
 .skill_wrap{
@@ -177,16 +182,10 @@
   display: inline-block;
   margin-left: 180px;
   color: #FFF;
-  padding-top: 15px;
   font-size: 16px;
 }
 .maru:first-child{
   margin: 0;
-}
-.java{
-  color: #FFF;
-  text-align: center;
-  padding-top: 15px;
 }
 .maru_text{
   margin-top: 10px;
