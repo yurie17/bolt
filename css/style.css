@@ -8,7 +8,7 @@ a{
 }
 a:hover{
   opacity: 1;
-  /* display: inline-block; */
+  display: inline-block;
 }
 
 .clearfix:after {
