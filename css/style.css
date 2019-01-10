@@ -67,6 +67,7 @@ a:hover{
 .phone_wrap{
   background-color: #74cfae;
   padding-top: 50px;
+  text-align: center;
 }
 /* .grid{
   margin: 0px -15px;
@@ -78,8 +79,8 @@ a:hover{
 .vert{
   vertical-align: top;
 } */
+  /* width: 30%; */
 .phone{
-  width: 30%;
   display: inline-block;
   vertical-align: top;
   text-align: center;
@@ -228,3 +229,175 @@ a:hover{
   color: #FFF;
   text-align: right;
 }
+
+@media screen and (max-width:766px) {
+.inner{
+  margin: 0 auto;
+  max-width: 97%;
+}
+
+.bolt_them_wrap {
+  padding-top: 160px;
+  padding-bottom: 130px;
+}
+.title{
+  font-size: 80px;
+}
+.phone_wrap{
+  text-align: center;
+  padding-bottom: 25px;
+}
+.phone{
+  margin-bottom: 20px;
+}
+.mainbox{
+  width: auto;
+  display: block;
+}
+.maintext__text{
+  width: 290px;
+
+}
+.our_wrap{
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+.subtitle{
+  margin-bottom: 40px;
+}
+.picbox{
+  text-align: center;
+  display: block;
+}
+.picture{
+  display: block;
+  margin: 0;
+}
+.picture:nth-child(3n){
+  margin-bottom: 80px;
+}
+.subtext{
+  display: block;
+  width: 290px;
+  margin: 0 auto;
+}
+.Email_btn{
+  margin-top: 40px;
+  margin-left: 0;
+}
+.ok{
+  display: block;
+}
+.maru{
+  display: block;
+  margin-left: 0;
+  margin-bottom: 88px;
+}
+.maru:first-child {
+  margin-bottom: 88px;
+}
+.maru:last-child {
+  margin-bottom: 0;
+}
+.bottom_wrap{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.inner_sns{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.btn_list > li {
+  display: block;
+  text-align: -webkit-center;
+}
+
+.header_btn{
+  float: right;
+  padding:  10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-appearance: button;
+  background-color:#FFF;
+  margin-top: 5px;
+}
+.btn_bar{
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: #ccc;
+}
+.header_btn > .btn_bar:not(:first-child){
+  margin-top: 10px;
+}
+.menu_btn{
+  display: none;
+}
+
+}
+@media screen and (min-width:767px) and ( max-width:1199px) {
+.inner{
+  margin: 0 auto;
+  max-width: 97%;
+}
+.phone_wrap{
+  padding-top: 50px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+.phone{
+  margin-bottom: 20px;
+  display: block;
+}
+.mainbox{
+  width: auto;
+}
+.maintitle__text{
+  margin-bottom: 35px;
+}
+.maintext__text{
+  width: 85%;
+
+}
+.our_wrap{
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+.subtitle{
+  margin-bottom: 40px;
+}
+.picbox{
+  text-align: center;
+  display: block;
+}
+.picture{
+  display: block;
+  margin: 0;
+}
+.picture:nth-child(3n){
+  margin-bottom: 80px;
+}
+.subtext{
+  display: block;
+  width: 75%;
+  margin: 0 auto;
+}
+.Email_btn{
+  margin-top: 40px;
+  margin-left: 0;
+}
+.ok{
+  display: block;
+}
+.maru{
+  display: block;
+  margin-left: 0;
+  margin-bottom: 88px;
+}
+.maru:first-child {
+  margin-bottom: 88px;
+}
+.maru:last-child {
+  margin-bottom: 0;
+}
+@media screen and (min-width:1200px) {
