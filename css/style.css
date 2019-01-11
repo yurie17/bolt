@@ -4,16 +4,9 @@ body{
 img{
   vertical-align: bottom;
 }
-.pic{
-  opacity: 0.7;
-  transition: 0.3s;
+a{
   display: inline-block;
 }
-a:hover{
-  opacity: 1;
-  display: inline-block;
-}
-
 .clearfix:after {
   display: block;
   content: "";
@@ -115,6 +108,14 @@ a:hover{
   text-align: center;
 }
 
+.pic{
+  opacity: 0.7;
+  transition: 0.3s;
+}
+.pic:hover{
+  opacity: 1;
+  display: inline-block;
+}
 .picbox{
   display: inline-block;
   margin-top:40px;
@@ -256,15 +257,12 @@ a:hover{
   display: block;
 }
 .maintext__text{
-  max-width: 42%;
-
+  width: 100%;
+  max-width: 290px;
 }
 .our_wrap{
   padding-top: 60px;
   padding-bottom: 70px;
-}
-.subtitle{
-  margin-bottom: 40px;
 }
 .picbox{
   text-align: center;
@@ -282,7 +280,8 @@ a:hover{
 }
 .subtext{
   display: block;
-  max-width: 38%;
+  width: 100%;
+  max-width: 290px;
   margin: 0 auto;
 }
 .Email_btn{
@@ -363,14 +362,12 @@ a:hover{
 }
 .maintext__text{
   width: 85%;
+  max-width: 1199px;
 
 }
 .our_wrap{
   padding-top: 60px;
   padding-bottom: 70px;
-}
-.subtitle{
-  margin-bottom: 40px;
 }
 .picbox{
   text-align: center;
@@ -388,8 +385,9 @@ a:hover{
 }
 .subtext{
   display: block;
-  width: 75%;
   margin: 0 auto;
+  width: 80%;
+  max-width: 850px;
 }
 .Email_btn{
   margin-top: 40px;
